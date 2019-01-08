@@ -1,0 +1,106 @@
+@import url(/assets/css/chota.min.css);
+/* FONTS */
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/raleway-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Regular'),
+       url('/assets/fonts/raleway-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/raleway-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/raleway-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/raleway-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/raleway-v12-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/quicksand-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Quicksand Regular'), local('Quicksand-Regular'),
+       url('/assets/fonts/quicksand-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/quicksand-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/quicksand-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/quicksand-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/quicksand-v7-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+:root {
+  --color-primary: #da1d50; /* brand color */
+  --grid-maxWidth: 96rem; /* max container width 1080px */
+  --font-family: "Raleway", sans-serif;
+}
+
+/* HEADER */
+.headerbar {
+    margin-top: 1rem;
+}
+
+/* PROJECTS */
+.projects .card a {
+	margin: -10px -20px -10px -20px;
+	overflow: hidden;
+	border-radius: 4px 4px 0 0;
+	height:200px;
+    position: relative;
+}
+.projects .card a img {
+	overflow: hidden;
+	margin: auto;
+	height: 100%;
+  	width: 100%;
+	object-fit: cover;
+    z-index: 30;
+}
+.projects .card a img:hover {
+    z-index: 10;
+}
+.projects .card a div {
+
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   padding: 4px;
+   color:black;
+   z-index: 20;
+   background: #ffffff;
+   opacity: 0.75;
+}
+.projects .card a div:hover {
+    z-index: 40;
+}
+.projects .card footer {
+	font-size: 1.6rem;
+	margin-top: 0.5rem;
+}
+
+.project header .imagespread {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.project header .imagespread img {
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+nav.tabs img {
+	vertical-align: text-bottom;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: #999999;
+    margin-top: 2.4em;
+}

@@ -1,0 +1,73 @@
+---
+permalink: /.well-known/keybase.txt
+---
+==================================================================
+https://keybase.io/tiefpunkt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://severin.schols.de
+  * I am tiefpunkt (https://keybase.io/tiefpunkt) on keybase.
+  * I have a public key with fingerprint AAA4 5709 504C BDF4 4E97  A421 59B4 F38F 3CB0 F081
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "aaa45709504cbdf44e97a42159b4f38f3cb0f081",
+            "host": "keybase.io",
+            "key_id": "59B4F38F3CB0F081",
+            "uid": "6dd185c35819fa084e5f70ce2cd08500",
+            "username": "tiefpunkt"
+        },
+        "service": {
+            "hostname": "severin.schols.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396297524,
+    "expire_in": 157680000,
+    "prev": "23cdef2bfa5b30c65a1d05d35a904c026735aad12420a5dc40a8b33e8d3bbfcd",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMQYueVzv82GD42Mpw98T2IItjxvUq2UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslBITE01MzQ0sTQ1MkpNS0kxMUi3NE02MDE0tk0zSjC3SjJOTDNIMLAyV
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqKmlk4mbsYWbsbOTgRtEfSlYwiwlxdDC
+NNnY1MLQMi3RwMIk1TTN3CA51Sg5xcDC1MAApLA4tSgvMTcVqLokMzWtoDQvu0Sp
+VkcJKFyWmZwKcjTIbqiS4tSyVKDj9YqTM/JzivVSUoEmFBTll+Qn5+cApTNKSgqs
+QLpLKgtAystTk+KhBsUnZealAH0P1AA0ojgzP0/JyhCoMrkkE2SyobGlmZGluamR
+iY5SakVBZlFqfCZIham5mYUBEICsSS0DGmlknJySmmaUlJZommRskGxmmmiYYmCa
+YmyaaAkMRQMjM3MgMzHF0MjEyCDRNCXZxCDRIsnYONUixTgpKS05RQnktcK8fCUr
+oE0liekgT2Wm5yWWlBalKtV2MsmwMDAyMbCxMoHij4GLUwAWqx/n8f8vPram43+C
+8+oj0QVikuVPUxfbTd6xI2CZGOO7gt+njcyEHk3+ELGsI918lesRhtATa1c2t/+p
+f1S0ovDKslVBieUq3vMMjdRj485/fa6levFMZt6Pd55HlwdO6L45Q9ptg87lf+Jv
+56YrTltRtugeq9X8Sa0bgrfNunn7WLTXTNdnhW7VV3hjjpqu7LT9IFKx+e1stplN
+MopuDokS3NuOs2Y7/FEq1hDaErTz/7mOvEfqYiuEP24+MKX7TvEK98y9vpwqXwrb
+ttzhn3H7+P16QbUuse/h83KXPTgf/OGhwK3UBybzix8vKzht8XsFg+u3gjDH8jvP
+Sz+/FOIPm8TOGP9y9ZcfBhqeGz0vqvF+sAlwtVrAL3xjVuSHtE71eYLzeFV+2N50
+Cr4dctdym9fS+43m23qlQy8mBmrE9CgHzLrRbScuJ3HYWLXKsPlkb5RA6O6olLt2
+9ecf/0lXWp/x+G9N+H0e8av9Pbn8/hNCbmdd8bG7uD5tkWrHp5jrIk5vHl45ezOu
+uFJrlXCf+d7mmbIHDtRPfbxk3ek6sxhrtjen/maZHJwb+Gb5m20a+w6acx44Z3o4
+k/FYfJFcVjqv9ndWlx12os2qwVsjZjXV5MiJ51tG9Yck/ZnPm3bozq/JZYrPJt+T
+2OJxZevJqb/X8BxbdGSn+/E626fni142/THMFzmzSV2T/Vxd8JzDzlPrGT99XZcu
+99vRjNURAA==
+=gJ0F
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tiefpunkt
+
+==================================================================

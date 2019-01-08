@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/
+---
+
+<section>
+	<h3>Projects</h3>
+	<div class="row projects">
+		{% for project in site.projects reversed %}
+		<div class="card col-3">
+				<a class="is-center" href="{{ project.url }}">
+					<img src="{{ project.img }}">
+					<div>{{ project.title }}</div>
+			 	</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
