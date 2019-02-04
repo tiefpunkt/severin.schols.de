@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
 	<meta charset="utf-8">
@@ -11,6 +11,23 @@
 	<!-- Favicon made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
 	<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
+	{% if page.img %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@tiefpunkt" />
+	<meta name="twitter:creator" content="@tiefpunkt" />
+	<meta name="twitter:image" content="{{site.url}}{{ page.img }}" />
+	<meta property="og:url" content="{{site.url}}{{ page.url }}" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{{ page.excerpt | strip_html | strip }}" />
+	<meta property="og:image" content="{{site.url}}{{ page.img }}" />
+	{% elsif page.excerpt %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@tiefpunkt" />
+	<meta name="twitter:creator" content="@tiefpunkt" />
+	<meta property="og:url" content="{{site.url}}{{ page.url }}" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{{ page.excerpt | strip_html | strip }}" />
+	{% endif %}
 
 </head>
 
