@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-# Impressum / Imprint
+# Impressum
 ## Angaben gemäß § 5 TMG
 Severin Schols<br>
 Spixstr. 25<br>
