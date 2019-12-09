@@ -7,7 +7,9 @@ tags: plastic preciousplastic recycling sustainability
 date: 2018-01-02
 ---
 
-We need to reduce plastic waste!
+Precious Plastic Munich is a local chapter of the global Precious Plastic initiative, aiming to encourage a more sensible approach to using plastic by raising awareness of its qualities. Currently a core group of two people, Precious Plastic Munich has built a number of plastic recycling machines, and done research on the simplification of some processes to make plastic trash into new products.
+
+The project's focus lies on this research as well as engaging with interested people in local communities, helping kickstart other recycling workspaces in universities and local schools, and creating products to fund further research projects
 
 ## Further resources
 * [Instagram](https://www.instagram.com/preciousplasticmunich/)
