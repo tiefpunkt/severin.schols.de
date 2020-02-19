@@ -1,8 +1,8 @@
 .PHONY: deploy
 
-_site: *.md
-	jekyll build
+_site: *.md _layouts
+	bundle exec jekyll build
 
 deploy: _site
-	jekyll build
+	bundle exec jekyll build
 	rsync -avp --del _site/ severin@giesing.munichmakes.de:/data/schols.de/severin/
