@@ -92,6 +92,7 @@
 }
 nav.tabs img {
 	vertical-align: text-bottom;
+    min-width: 16px;
 }
 
 h1, h2, h3, h4 {

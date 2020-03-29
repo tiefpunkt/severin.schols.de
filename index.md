@@ -6,7 +6,7 @@ layout: default
 ---
 <div class="row" style="padding-top:1em;">
 <div class="col is-center">
-<img src="/assets/img/severin.jpg" alt="Severin's face" style="height:400px;width:400px;margin-top: 10px;margin-bottom:20px;border-radius:3px;">
+<img src="/assets/img/severin.jpg" alt="Severin's face" style="width:400px;margin-top: 10px;margin-bottom:20px;border-radius:3px;">
 </div>
 <div class="col" style="padding-top:1em;">
 <p>Severin Schols is an IT professional and maker.</p>
