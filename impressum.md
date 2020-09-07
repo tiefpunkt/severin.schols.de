@@ -7,7 +7,7 @@ layout: default
 # Impressum
 ## Angaben gemäß § 5 TMG
 Severin Schols<br>
-Lerchenaur Str. 170A<br>
+Lerchenauer Str. 170A<br>
 80935 München
 ## Kontakt
 * E-Mail: website@schols.de
