@@ -16,7 +16,7 @@
 title: Severin Schols
 email: severin@schols.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Severin Schols is an IT professional and maker. Find out about his projects and other endeavours right here.
+  Severin Schols is a maker & IT professional. Find out about his projects and other endeavours right here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://severin.schols.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tiefpunkt
@@ -29,6 +29,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 10
 paginate_path: "/blog/page:num/"

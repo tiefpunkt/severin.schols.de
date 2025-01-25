@@ -7,8 +7,8 @@ layout: default
 # Impressum
 ## Angaben gemäß § 5 TMG
 Severin Schols<br>
-Lerchenauer Str. 170A<br>
-80935 München
+Hellabrunner Str. 15<br>
+81543 München
 ## Kontakt
 * E-Mail: website@schols.de
 * Telefon: +49 160 94111651
