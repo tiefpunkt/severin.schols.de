@@ -32,6 +32,19 @@
   --grid-maxWidth: 96rem; /* max container width 1080px */
   --font-family: "Raleway", sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+	:root {
+        --bg-color: #191919;
+        --bg-secondary-color: #131316;
+        --font-color: #f5f5f5;
+        --color-grey: #ccc;
+        --color-darkGrey: #777;
+	}
+    nav.tabs img {
+        filter: invert(60%);
+    }
+}
+
 
 /* HEADER */
 .headerbar {
